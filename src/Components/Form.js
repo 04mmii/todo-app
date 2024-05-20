@@ -26,4 +26,4 @@ export default function Form({value, setValue, handleSubmit}) {
           </form>
     </div>
   )
-}
+};
