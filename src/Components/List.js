@@ -35,7 +35,7 @@ const List = React.memo(({
             })
             setTodoData(newTodoData)
             setIsEditing(false);
-    }
+    };
 
         if(isEditing) {
             return (
@@ -87,7 +87,7 @@ const List = React.memo(({
                 </div>
             </div>
             );
-        }
+        };
     
 
 }
